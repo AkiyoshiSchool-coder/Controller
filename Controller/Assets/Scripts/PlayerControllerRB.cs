@@ -31,6 +31,11 @@ public class PlayerControllerRB : MonoBehaviour
     private InputAction JumpAction;
     private InputAction LookAction;
 
+    [SerializeField] Animator Animator;
+    UnityEngine.Vector2 AnimBlendVect;
+    UnityEngine.Vector2 AnimVel;
+    [SerializeField] private float AnimSmooth;
+
 
     void Start()
     {
@@ -61,6 +66,7 @@ public class PlayerControllerRB : MonoBehaviour
         }
         UnityEngine.Vector2 lookVector = LookAction.ReadValue<UnityEngine.Vector2>();
         HandleCamera(lookVector);
+        Animacao();
     }
 
     void FixedUpdate()
@@ -87,5 +93,12 @@ public class PlayerControllerRB : MonoBehaviour
         LookAngle = Mathf.Clamp(LookAngle, -LookAngleLimit, LookAngleLimit);
         MainCamera.transform.localRotation = UnityEngine.Quaternion.Euler(LookAngle,0,0);
         transform.rotation *= UnityEngine.Quaternion.Euler(0,LookVector.x*LookSensitivity,0);
+    }
+    private void Animacao()
+    {
+        UnityEngine.Vector2 Input = MoveAction.ReadValue<UnityEngine.Vector2>();
+        AnimBlendVect = UnityEngine.Vector2.SmoothDamp(AnimBlendVect, Input, ref AnimVel, AnimSmooth);
+        Animator.SetFloat("MoveX", AnimBlendVect.x);
+        Animator.SetFloat("MoveZ", AnimBlendVect.y);
     }
 }
