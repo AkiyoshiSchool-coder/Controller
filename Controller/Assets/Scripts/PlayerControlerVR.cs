@@ -63,10 +63,9 @@ public class PlayerControlerVR : MonoBehaviour
     {
         Vector3 right = Vector3.ProjectOnPlane(MainCamera.transform.right, Vector3.up).normalized;
         Vector3 forward = Vector3.Cross(right,Vector3.up);
-        Vector3 MoveDirection = (forward * Movement.y + right * Movement.x) * currentMoveSpeed;
-
+        Vector3 moveDirection = (forward * Movement.y + right * Movement.x) * currentMoveSpeed;
         //Movimentação com direção ajustada pela rotação
-        UnityEngine.Vector3 moveDirection = (transform.forward * Movement.y + transform.right * Movement.x) * currentMoveSpeed;
+    
 
         if(characterController.isGrounded) // Checa se player no chão
         {
