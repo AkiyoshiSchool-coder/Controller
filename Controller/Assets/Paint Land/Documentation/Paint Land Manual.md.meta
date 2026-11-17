@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 209e6517f210d1040aa768c57ca29634
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 417182
+  packageName: 'Paint Land: LowPoly Landscape Painter'
+  packageVersion: 1.1
+  assetPath: Assets/Paint Land/Documentation/Paint Land Manual.md
+  uploadId: 1020746

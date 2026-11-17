@@ -25,7 +25,7 @@ public class PlayerControlerVR : MonoBehaviour
     [SerializeField] private float currentVerticalSpeed;
     [SerializeField] private float LookAngle;
 
-    private Animator Animator;
+    [SerializeField] private Animator Animator;
     UnityEngine.Vector2 AnimBlendVect;
     UnityEngine.Vector2 AnimVel;
     [SerializeField] private float AnimSmooth;

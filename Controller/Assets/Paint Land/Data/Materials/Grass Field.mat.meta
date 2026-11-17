@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1e9bd76c36da394b98d2e87f7489a70
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 417182
+  packageName: 'Paint Land: LowPoly Landscape Painter'
+  packageVersion: 1.1
+  assetPath: Assets/Paint Land/Data/Materials/Grass Field.mat
+  uploadId: 1020746

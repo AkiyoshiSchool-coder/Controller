@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3d9b3bc20c40bc74385d4c606e986be9
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 417182
+  packageName: 'Paint Land: LowPoly Landscape Painter'
+  packageVersion: 1.1
+  assetPath: Assets/Paint Land/Shaders/Water.shader
+  uploadId: 1020746

@@ -1,7 +1,9 @@
 ﻿<Solution>
   <Project Path="Assembly-CSharp-Editor.csproj" />
-  <Project Path="Google.XR.Cardboard.csproj" />
-  <Project Path="CardboardSamples.csproj" />
-  <Project Path="Google.XR.Cardboard.Editor.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Google.XR.Cardboard.csproj" />
+  <Project Path="UnityTechnologies.ParticlePack.csproj" />
+  <Project Path="CardboardSamples.csproj" />
+  <Project Path="UnityTechnologies.ParticlePack.Editor.csproj" />
+  <Project Path="Google.XR.Cardboard.Editor.csproj" />
 </Solution>

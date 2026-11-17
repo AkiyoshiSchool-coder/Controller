@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a6aed75bf8985cb41863781eaa496bc6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 417182
+  packageName: 'Paint Land: LowPoly Landscape Painter'
+  packageVersion: 1.1
+  assetPath: Assets/Paint Land/Sample/Materials/Mushroom Cap.mat
+  uploadId: 1020746

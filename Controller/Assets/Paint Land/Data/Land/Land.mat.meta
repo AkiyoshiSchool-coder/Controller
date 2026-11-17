@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1671bcc8470fe5e4d9868a7a354cd7e0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 417182
+  packageName: 'Paint Land: LowPoly Landscape Painter'
+  packageVersion: 1.1
+  assetPath: Assets/Paint Land/Data/Land/Land.mat
+  uploadId: 1020746

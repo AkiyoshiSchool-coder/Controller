@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 760e7eed4aa5b994b88a63d1767f56a6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 417182
+  packageName: 'Paint Land: LowPoly Landscape Painter'
+  packageVersion: 1.1
+  assetPath: Assets/Paint Land/Sample/Meshes/Log.asset
+  uploadId: 1020746

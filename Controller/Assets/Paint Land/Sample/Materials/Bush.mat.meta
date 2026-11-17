@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 78588b9ad0e1b0c4fbaf917ea78cd020
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 417182
+  packageName: 'Paint Land: LowPoly Landscape Painter'
+  packageVersion: 1.1
+  assetPath: Assets/Paint Land/Sample/Materials/Bush.mat
+  uploadId: 1020746

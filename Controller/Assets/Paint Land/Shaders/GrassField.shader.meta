@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 77879e2151d73ee4dbb67f6fb33c9157
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 417182
+  packageName: 'Paint Land: LowPoly Landscape Painter'
+  packageVersion: 1.1
+  assetPath: Assets/Paint Land/Shaders/GrassField.shader
+  uploadId: 1020746
