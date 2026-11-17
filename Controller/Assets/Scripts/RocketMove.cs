@@ -7,6 +7,7 @@ public class RocketMove : MonoBehaviour
     [SerializeField] private GameObject target;
     [SerializeField] private GameObject Particle;
     [SerializeField] private GameObject SParticle;
+    [SerializeField] private GameObject Audio1, Audio2;
     // Update is called once per frame
     void Update()
     {
@@ -20,6 +21,8 @@ public class RocketMove : MonoBehaviour
     public void OnPointerClick()
     {
         activated = true;
+        Audio1.SetActive(false);
+        Audio2.SetActive(true);
     }
     public void OnPointerEnter()
     {

@@ -75,7 +75,7 @@ public class CardboardReticlePointer : MonoBehaviour
     /// <summary>
     /// Minimum distance between the camera and the reticle (in meters).
     /// </summary>
-    private const float _RETICLE_MIN_DISTANCE = 0.45f;
+    private const float _RETICLE_MIN_DISTANCE = 0.01f;
 
     /// <summary>
     /// Maximum distance between the camera and the reticle (in meters).
