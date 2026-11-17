@@ -94,7 +94,7 @@ public class CardboardReticlePointer : MonoBehaviour
     /// <summary>
     /// The game object the reticle is pointing at.
     /// </summary>
-    private GameObject _gazedAtObject = null;
+    public GameObject _gazedAtObject = null;
 
     /// <summary>
     /// The material used to render the reticle.
@@ -176,7 +176,7 @@ public class CardboardReticlePointer : MonoBehaviour
                 _gazedAtObject?.SendMessage("OnPointerExit");
             }
 
-            _gazedAtObject = null;
+
             ResetParams();
         }
 
