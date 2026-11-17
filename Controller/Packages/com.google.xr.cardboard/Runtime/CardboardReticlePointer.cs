@@ -18,6 +18,7 @@
 
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
 /// <summary>
 /// Draws a circular reticle in front of any object that the user points at.
@@ -129,8 +130,11 @@ public class CardboardReticlePointer : MonoBehaviour
     /// <summary>
     /// Start is called before the first frame update.
     /// </summary>
+    private InputAction IC;
+    ///
     private void Start()
     {
+        IC = InputSystem.actions.FindAction("Interact");
         Renderer rendererComponent = GetComponent<Renderer>();
         rendererComponent.sortingOrder = ReticleSortingOrder;
 
@@ -181,7 +185,7 @@ public class CardboardReticlePointer : MonoBehaviour
         }
 
         // Checks for screen touches.
-        if (Google.XR.Cardboard.Api.IsTriggerPressed)
+        if (IC.WasPressedThisFrame())
         {
             if (IsInteractive(_gazedAtObject))
             {
